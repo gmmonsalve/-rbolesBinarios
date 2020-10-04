@@ -15,12 +15,12 @@ public class ArbolB {
 
     public static Integer[] vector_a() { //Método de generación de vector con números aleatorios
         int num;
-        Integer lol[] = new Integer[5];
+        Integer rand[] = new Integer[5];
         for (int i = 0; i < 5; i++) {
             num = (int) (Math.random() * 100) + 1;
-            lol[i] = num;
+            rand[i] = num;
         }
-        return lol;
+        return rand;
     }
 
     public static void Preorden(Nodo raiz) { //Método de ordenamiendo, PreOrden
